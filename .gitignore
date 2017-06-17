@@ -1,0 +1,7 @@
+wp/wp-config.php
+.htaccess
+
+wp/wp-content/uploads/*
+uploads/*
+!uploads/.gitkeep
+!wp/wp-content/uploads/.gitkeep
