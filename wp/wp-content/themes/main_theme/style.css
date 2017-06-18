@@ -1,0 +1,9 @@
+/* 全体デザイン */
+#inlineDesign {
+	display: flex;
+}
+
+/* 単体デザイン */
+#contentA_Z {
+	text-align: center;
+}
