@@ -1,5 +1,23 @@
+
+
+/* ヘッダー文字 */
+header p#title {
+	width: 1000px;
+	margin: 14px auto;
+	margin-top: 80px;
+	margin-left: 160px;
+}
+
+
+/* 上段の線 */
+img.liner {
+	width: 1000px;
+	margin-bottom: 40px;
+	margin-left: 116px;
+}
+
 /* 全体デザイン */
-div.wholeDesign {
+.wholeDesign {
 	margin: 0 auto;
 	width: 1000px;
 }
@@ -13,9 +31,29 @@ div.wholeDesign {
 #contentA_Z {
 	text-align: center;
 	margin: 0 20px 10px;
+	width: 210px;
 }
 
 /* 部分ごとデザイン */
 p#content_text {
-	font-size: 12px;
+	font-size: 11px;
+	margin-top: 8px;
+	text-align: left;
+}
+
+p.a_to_z {
+	height: 60px;
+	font-size: 40px;
+	margin: 0;
+}
+
+h5#subtitle {
+	margin: 0;
+	font-size: 11px;
+	margin-bottom: 4px;
+}
+
+h2#maintitle {
+	margin: 0;
+	font-size: 16px;
 }
